@@ -1,0 +1,80 @@
+/*nav bar*/
+.nav {
+    background-color: #181818;
+    height: 70px;
+    margin-top: -5px;
+}
+.nav2 {
+    background-color: #5dadec;
+    height: 70px;
+    margin-top: -19px;
+    
+}
+.nav-title2 {
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+.nav-title {
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    margin-right: 90%;
+}
+.nav img{
+    width: 70px;
+    height: 60px;
+}
+.itcontainer{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.image{
+    flex-basis: 40%;
+}
+
+/*main container*/
+.flex-container {
+    background-color: white;
+    margin: 0%;
+
+}
+
+/*right container*/
+.frcontainer {
+    margin-left: 30%;
+    width: 70%;
+}
+.frcontainer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerimg{
+    display: flex;
+    justify-content: center;
+}
+.htmlcontainer {
+    width: 90%;
+    height: 15%;
+    border: solid;
+    border-color: blue;
+}
+
+.align {
+    margin-top: -18%;
+    margin-left: 25%;
+}
+
+.align p {
+    font-size: large;
+}
+
+
+/*left container*/
+.secontainer {
+    margin-top: -755px;
+    width: 20%;
+}
