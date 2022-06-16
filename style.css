@@ -1,36 +1,49 @@
+* {
+    font-family: 'News Cycle', sans-serif;
+}
+
 /*nav bar*/
 .nav {
-    background-color: #181818;
-    height: 70px;
+    background-color: white;
+    height: 65px;
     margin-top: -5px;
 }
+
 .nav2 {
-    background-color: #5dadec;
+    background-color: #021691;
     height: 70px;
     margin-top: -19px;
     
+
 }
+
 .nav-title2 {
     color: white;
-    font-family: 'Baloo 2', cursive;
+    margin-top: 40px;
+    
 }
 
 .nav-title {
-    color: white;
-    font-family: 'Baloo 2', cursive;
-    font-size: 20px;
+    color: black;
+    margin-top: -3px;
     margin-right: 90%;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
-.nav img{
-    width: 70px;
-    height: 60px;
+
+.nav img {
+    width: 130px;
+    height: 90px;
+    margin-top: 10px;
 }
-.itcontainer{
+
+.itcontainer {
     display: flex;
     align-items: left;
     justify-content: left;
 }
-.image{
+
+.image {
     flex-basis: 40%;
 }
 
@@ -43,38 +56,84 @@
 
 /*right container*/
 .frcontainer {
-    margin-left: 30%;
+    margin-left: 29%;
     width: 70%;
 }
-.frcontainer ul{
+
+.contact ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.centerimg{
+.centerimg {
     display: flex;
     justify-content: center;
 }
+
 .htmlcontainer {
     width: 90%;
-    height: 15%;
+    height: 50%;
     border: solid;
     border-color: blue;
 }
-
+.htmlcontainer img{
+    margin-bottom: -140px;
+}
 .align {
-    margin-top: -18%;
+    margin-top: -5%;
     margin-left: 25%;
 }
 
 .align p {
     font-size: large;
+    margin-bottom: 20px;
 }
+.frcontainer span {
+    color: blue;
+    
+}
+i  {
+    color: #021691;
+    margin-left: -30px;
 
-
+}
+.frcontainer h5{
+margin-top: -10px;
+}
+.phone{
+    margin-top: -95px;
+    margin-left: 80%;
+}
+.frcontainer hr{
+    margin-top: 35px;
+}
+.frcontainer h1{
+    color: #021691;
+}
 /*left container*/
 .secontainer {
-    margin-top: -755px;
-    width: 20%;
+    margin-top: -965px;
+    width: 25%;
+}
+button{
+    background-color: #021691;
+    width: 100%;
+    height: 50px;
+    border: none;
+    box-shadow: 3px 3px #888888;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.button2{
+    background-color:#FF7F50;
+}
+.secontainer img{
+    width: 100%;
+}
+.secontainer span{
+    color: red;
 }
